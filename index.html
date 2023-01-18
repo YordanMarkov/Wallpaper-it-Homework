@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8" lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Page title -->
+    <title>Wallpaper It | Wallpaper for every style and budget</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/icon.webp">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900'>
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/avenir">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="new-year" class="new-year">
+        <a href="#">NEW YEAR SALE! 20% OFF SELECTED WALLPAPERS !</a>
+        <span class="cross-mark" onclick="hideNewYear()">&times;</span>
+    </div>
+    <div class="wallpaper-it-logo">
+        <img src="images/wallpaperit-Logo.png" alt="Wallpaper-it Logo">
+        <input type="search" class="search-bar" placeholder="Search for products...">
+        <div>
+            <a href="#"><img src="images/sign in.png" alt="Sign in">Sign in</a>
+            <a href="#"><img src="images/wishlist.png" alt="Wishlist">Wishlist</a>
+            <a href="#"><img src="images/bag.png" alt="Bag">Bag</a>
+        </div>
+    </div>
+    <div>
+        <nav>
+            <ul class="nav">
+                <li><a onmouseover="showNav()" class="nav-item">WALLPAPER<i class="arrow"></i></a></li>
+                <li><a onmouseover="showNav()" class="nav-item">PAINT<i class="arrow"></i></a></li>
+                <li><a onmouseover="showNav()" class="nav-item">BRANDS<i class="arrow"></i></a></li>
+                <li><a href="#" class="nav-item">WALL MURALS</a></li>
+                <li><a onmouseover="showNav()" class="nav-item">WALL ART<i class="arrow"></i></a></li>
+                <li><a href="#" class="nav-item">SALE</a></li>
+            </ul>
+        </nav>
+        <div id="nav-show" class="nav-show">
+            <ul>
+                <li><a href="#" class="nav-item">Animal </a></li>
+                <li><a href="#" class="nav-item">Bird </a></li>
+                <li><a href="#" class="nav-item">Brick </a></li>
+                <li><a href="#" class="nav-item">Damask</a></li>
+                <li><a href="#" class="nav-item">Floral </a></li>
+                <li"><a href="#" class="nav-item">Geometric</a></li>                                                                                                                                                                     
+            </ul>
+        </div>
+    </div>
+    <div class="info-messages">
+        <div class="info-message"><a href="#">Free Delivery <span>On All Orders Over £50</span></a></div>
+        <div class="info-message"><a href="#">Customers Rate Us 4.7 / 5</a></div>
+        <div class="info-message"><a href="#">Order By 8pm <span>For Next Day Delivery</span></a></div>
+    </div>
+    <div class="discover-your-style">
+        <img class="side" src="images/envy-homepage-banner-left-image.jpg" alt="homepage-banner">
+        <div class="discover-img">
+            <!-- Not in the folder! -->
+            <img class="margin-auto" src="https://www.wallpaper-it.com/on/demandware.static/-/Library-Sites-Library-Wallpaper/default/dw7b653d08/svg/envy-homepage-banner-sinful-style.svg" alt="envy-homepage-banner-sinful-style">
+            <a class="button" href="#">SHOP WALLPAPER</a>
+            <img class="margin-auto" src="images/envy-homepage-banner-logo.svg" alt="logo">
+        </div>
+        <img class="side" src="images/envy-homepage-banner-right-image.jpg" alt="homepage-banner">
+    </div>
+    <div class="brands">
+        <h2 class="text-our-brands">Our<span> Brands</span></h2>
+        <div class="container">
+          <section class="customer-logos slider" adata-arrows="true">
+            <div class="slide">
+              <img src="images/la-logo.png"/>
+            </div>
+            <div class="slide">
+              <img src="images/next-logo.png"/>
+            </div>
+            <div class="slide">
+              <img src="images/joules-logo.png"/>
+            </div>
+            <div class="slide">
+              <img src="images/sfe-logo.png"/>
+            </div>
+            <div class="slide">
+              <img src="images/sfep-logo.png"/>
+            </div>
+            <div class="slide">
+              <img src="images/contour-logo.webp"/>
+            </div>
+            <div class="slide">
+              <img src="images/boutique-logo.png"/>
+            </div>
+          </section>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
